@@ -1,0 +1,102 @@
+
+
+body {
+  font-family:sans-serif;
+  background-color: #F08080;
+  margin: 0px;
+  padding: 0px;
+}
+#navigationBar {
+  width: 200px;
+  height: 500vh;
+  font-size: 24pt;
+  font-family: 'Odibee Sans', cursive;
+  position: fixed;
+  background-color: #ADD8E6;
+}
+
+#mainContainer {
+  margin-left: 240px;
+}
+
+#heroBanner {
+  background-color: #333;
+  background-image: url('https://i2.cdn.turner.com/dr/hln/www/release/sites/default/files/imagecache/textarticle_640/2012/01/23/KyleMiller.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #DAA520;
+  height: 300px;
+  padding-left: 64px;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+#mainTitleText{
+  font-size: 75px;
+}
+
+#sectionHeader{
+  background-color: #8A2BE2
+}
+.sectionHeader{
+  text-decoration: underline;
+}
+
+.thumbnailContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnailImage {
+  width: 33%;
+}
+
+.columnContainer{
+  display: flex;
+}
+
+.contentSectionContainer{
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+#arguments{
+  font-family: 'Lato', sans-serif;
+
+  color: #FAF0E6;
+  text-align: center;
+  padding-left: 200px;
+  padding-bottom: 128px;
+}
+
+#mainContainer2{
+  margin-left: 15px;
+  color: #FAF0E6
+}
+
+#matter{
+  width: 100;
+  text-align: center;
+  padding-left: 200px;
+  padding-bottom: 128px;
+}
+
+#mainContainer3{
+  margin-left: 15px;
+}
