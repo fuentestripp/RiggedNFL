@@ -6,17 +6,34 @@ body {
   margin: 0px;
   padding: 0px;
 }
-#navigationBar {
-  width: 200px;
-  height: 500vh;
-  font-size: 24pt;
-  font-family: 'Odibee Sans', cursive;
+
+
+#navigationBar ul {
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
   position: fixed;
   background-color: #ADD8E6;
+  margin: 0;
+  padding: 0;
 }
 
+#navigationBar li {
+  float: left;
+  color: #DAA520;
+}
+#navigationBar li a{
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-family: Odibee Sans;
+  padding: 10px 25px;
+  font-size: 16pt;
+
+}
 #mainContainer {
-  margin-left: 240px;
+  margin-left: 100px;
+
 }
 
 #heroBanner {
@@ -27,7 +44,7 @@ body {
   background-position: center;
   color: #DAA520;
   height: 300px;
-  padding-left: 64px;
+  padding-left: 0px;
   padding-top: 128px;
   padding-bottom: 128px;
 }
@@ -99,4 +116,8 @@ body {
 
 #mainContainer3{
   margin-left: 15px;
+}
+
+a, a:visited{
+  color:#fff;
 }
