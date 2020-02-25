@@ -2,18 +2,22 @@
 
 body {
   font-family:sans-serif;
-  background-color: #F08080;
+  background-color: #E0FFFF;
   margin: 0px;
   padding: 0px;
 }
 
-
+#navigationBar{
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  background-color: #ADD8E6;
+}
 #navigationBar ul {
   display: flex;
   list-style-type: none;
   overflow: hidden;
-  position: fixed;
-  background-color: #ADD8E6;
   margin: 0;
   padding: 0;
 }
@@ -21,6 +25,7 @@ body {
 #navigationBar li {
   float: left;
   color: #DAA520;
+
 }
 #navigationBar li a{
   text-align: center;
@@ -32,11 +37,12 @@ body {
 
 }
 #mainContainer {
-  margin-left: 100px;
-
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #heroBanner {
+  display: flex;
   background-color: #333;
   background-image: url('https://i2.cdn.turner.com/dr/hln/www/release/sites/default/files/imagecache/textarticle_640/2012/01/23/KyleMiller.jpg');
   background-size: cover;
@@ -47,6 +53,7 @@ body {
   padding-left: 0px;
   padding-top: 128px;
   padding-bottom: 128px;
+  justify-content: center;
 }
 
 #mainTitleText{
@@ -57,6 +64,7 @@ body {
   background-color: #8A2BE2
 }
 .sectionHeader{
+  display: flex;
   text-decoration: underline;
 }
 
@@ -66,6 +74,7 @@ body {
 }
 
 .thumbnailImage {
+  display: flex;
   width: 33%;
 }
 
@@ -76,9 +85,11 @@ body {
 .contentSectionContainer{
   margin-left: 64px;
   margin-right: 64px;
+
 }
 
 .iframe-container{
+  display: flex;
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
@@ -86,6 +97,7 @@ body {
 }
 
 .iframe-container iframe{
+  display: flex;
   position: absolute;
   top:0;
   left:0;
@@ -94,28 +106,37 @@ body {
 }
 
 #arguments{
+  display: flex;
+  flex-direction: column;
   font-family: 'Lato', sans-serif;
-
-  color: #FAF0E6;
+  justify-content: center;
+  color: #DAA520;
   text-align: center;
-  padding-left: 200px;
+  padding-left: 0px;
   padding-bottom: 128px;
 }
 
 #mainContainer2{
-  margin-left: 15px;
-  color: #FAF0E6
+  margin-right: auto;
+  margin-left: auto;
+  color: #DAA520;
 }
 
 #matter{
-  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75;
   text-align: center;
-  padding-left: 200px;
+  padding-left: 0px;
   padding-bottom: 128px;
 }
 
 #mainContainer3{
-  margin-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #DAA520;
+
 }
 
 a, a:visited{
